@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<!-- Configuração pra camera no IOS - Inicio -->
+	<key>NSCameraUsageDescription</key>
+	<string>Precisamos tirar uma foto</string>
+	<key>NSPhotoLibraryUsageDescription </key>
+	<string>Precisamos tirar uma foto</string>
+	<!-- Configuração pra camera no IOS - Final -->
+	<!-- Configuração pra localização no IOS - Inicio -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Precisamos da sua localização</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription </key>
+	<string>Precisamos da sua localização</string>
+	<!-- Configuração pra localização no IOS - Final -->
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
